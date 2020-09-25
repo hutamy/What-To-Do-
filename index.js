@@ -22,8 +22,8 @@ function createListElement() {
 	}
 
     //ubah warna done
-    li.addEventListener("click",crossOut);
-    function crossOut() {
+    li.addEventListener("click",highlight);
+    function highlight() {
 	    li.classList.toggle("done");
 	}
 }

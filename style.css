@@ -5,6 +5,7 @@
 body{
 	background: #e4fde1;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 h1{
@@ -12,6 +13,7 @@ h1{
     font-style: bold;
     font-size: 50px;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 .logoImage {
@@ -24,7 +26,9 @@ p{
     font-size: small;
     color: #025F70;
     margin-right: 15px;
+    margin-top: 10px;
     display: inline-block;
+    font-family: 'Playfair Display', serif;
 }
 
 input{
@@ -42,6 +46,7 @@ input{
     background-color: #dd614a;
     color: white;
     font-weight: 400;
+    margin-right: 5px;
 }
 
 ul{
@@ -51,7 +56,7 @@ ul{
 
 li{
 	list-style: none;
-	padding: 10px 25px;
+    padding: 10px 25px;
 	color: #ffffff;
 	font-weight: 800;
 	border: 2px solid #ff9b71;
@@ -86,7 +91,7 @@ li > button{
     background-color: #6ba292;
     position: fixed;
     bottom: 0;
-    color: #e4fde1;
+    color: white;
     font-size: 14px;
     width: 100%;
     margin: 0;
