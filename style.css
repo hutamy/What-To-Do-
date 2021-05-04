@@ -5,7 +5,7 @@
 body{
 	background: #e4fde1;
     text-align: center;
-    margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 h1{
@@ -52,6 +52,7 @@ input{
 ul{
 	text-align: left;
 	margin-top: 25px;
+    padding: 0;
 }
 
 li{
@@ -63,12 +64,13 @@ li{
 	border-radius: 10px;
 	margin-bottom: 10px;
     background: #dd614a;
-    max-width: 68%;
-    margin-left: 150px;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li:hover{
-	background: #6ba292;
+	background: #abd1c5;
 }
 
 li > button{
